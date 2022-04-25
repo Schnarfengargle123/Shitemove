@@ -15,4 +15,4 @@
 * PHP
 
 #### Database
-* Postgres
+* PostgreSQL
