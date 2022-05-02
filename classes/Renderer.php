@@ -28,7 +28,6 @@ class Renderer
         }
 
         require_once("../views/components/header.php");
-        // require_once("../views/components/header.php");
 
         echo "\n<div class=\"container\">\n";
 
