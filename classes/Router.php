@@ -1,15 +1,15 @@
 <?php
 
-require_once("../classes/pages/BasicPage.php");
-require_once("../classes/pages/Home.php");
-require_once("../classes/pages/Logout.php");
-require_once("../classes/pages/NotFound.php");
-require_once("../classes/pages/Profile.php");
-require_once("../classes/pages/PropertyDetails.php");
-require_once("../classes/pages/Register.php");
-require_once("../classes/pages/Rent.php");
-require_once("../classes/pages/Rentals.php");
-require_once("../classes/pages/Signin.php");
+require_once("../classes/presenters/BasicPage.php");
+require_once("../classes/presenters/Home.php");
+require_once("../classes/presenters/Logout.php");
+require_once("../classes/presenters/NotFound.php");
+require_once("../classes/presenters/Profile.php");
+require_once("../classes/presenters/PropertyDetails.php");
+require_once("../classes/presenters/Register.php");
+require_once("../classes/presenters/Rent.php");
+require_once("../classes/presenters/Rentals.php");
+require_once("../classes/presenters/Signin.php");
 
 
 class Router

@@ -11,7 +11,7 @@ class Renderer
 
     public static function render($contentFile, $variables = array())
     {
-        $contentFileFullPath = "../templates/" . $contentFile;
+        $contentFileFullPath = "../views/" . $contentFile;
 
         if (count($variables) > 0) {
             foreach ($variables as $key => $value) {
@@ -27,18 +27,19 @@ class Renderer
             }
         }
 
-        require_once("../templates/components/header.php");
+        require_once("../views/components/header.php");
+        // require_once("../views/components/header.php");
 
         echo "\n<div class=\"container\">\n";
 
         if (file_exists($contentFileFullPath)) {
             require_once($contentFileFullPath);
         } else {
-            require_once("../templates/error.php");
+            require_once("../views/error.php");
         }
 
         echo "</div>\n";
 
-        require_once("../templates/components/footer.php");
+        require_once("../views/components/footer.php");
     }
 }

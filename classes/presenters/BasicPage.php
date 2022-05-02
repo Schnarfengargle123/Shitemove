@@ -1,7 +1,7 @@
 <?php
 
-require_once('../classes/db/UserService.php');
-require_once('../classes/db/PropertyService.php');
+require_once('../classes/models/UserService.php');
+require_once('../classes/models/PropertyService.php');
 require_once('../classes/Renderer.php');
 require_once('../classes/Utils.php');
 

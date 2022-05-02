@@ -21,7 +21,7 @@ class Database
             $this->db = new PDO(
                 'mysql:host=localhost;dbname=shitemove;charset=utf8',
                 'shitemove_admin',
-                'password'
+                'shitemove123'
             );
             $this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $this->db->setAttribute(PDO::ATTR_EMULATE_PREPARES, true);
