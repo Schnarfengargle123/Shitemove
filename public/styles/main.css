@@ -115,7 +115,8 @@ header {
 
 .search-box {
     /* background-color: rgb(49, 46, 76); */
-    background-image: linear-gradient(to bottom, rgb(42, 33, 76), rgb(39, 36, 60));
+    /* background-image: linear-gradient(to bottom, rgb(42, 33, 76), rgb(39, 36, 60)); */
+    background-image: linear-gradient(to bottom, rgb(41, 32, 73), rgb(54, 36, 60));
     width: 50%;
     height: 35%;
     display: flex;
@@ -162,7 +163,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 95%;
     height: 50%;
 }
 
@@ -170,14 +171,24 @@ header {
     width: 63%;
     height: 35%;
     font-size: large;
+    font-weight: 700;
+    color: lightgreen;
+    text-shadow: 1px 2px 5px rgb(202, 25, 146);
     padding: 0 1%;
     border-radius: 4px;
     border: none;
     outline: 2px dotted limegreen;
     box-shadow: 0 0 2px 1px slategray;
     outline: none;
+    background-color: hotpink;
+    caret-color: lightgreen;
+
     transition: 200ms;
-    background-color: floralwhite;
+}
+
+.search-box__controls input::placeholder {
+    color: rgba(119, 241, 119, 0.792);
+    text-shadow: 1px 2px 5px rgb(202, 25, 146);
 }
 
 .search-box__controls input:focus {
