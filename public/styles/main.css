@@ -86,230 +86,332 @@ nav {
 }
 
 .home {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 header {
-    background-image: url('../images/header.jpeg');
-    width: 100%;
-    /* height: 25vh; */
-    /* background-position: 0 -16.5rem; */
-    height: 50vh;
-    background-position: 0 -11rem;
-    background-size: cover;
-    box-shadow: 0 2px 12px 2px dimgray;
-    border-bottom: 2px solid rgb(182, 142, 119);
+  background-image: url('../images/header.jpeg');
+  width: 100%;
+  /* height: 25vh; */
+  /* background-position: 0 -16.5rem; */
+  height: 50vh;
+  background-position: 0 -11rem;
+  background-size: cover;
+  box-shadow: 0 2px 12px 2px dimgray;
+  border-bottom: 2px solid rgb(182, 142, 119);
 }
 
 .header-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100vw;
-    height: 100%;
-    background-color: rgba(25, 53, 37, 0.299);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(25, 53, 37, 0.299);
 }
 
 .search-box {
-    /* background-color: rgb(49, 46, 76); */
-    /* background-image: linear-gradient(to bottom, rgb(42, 33, 76), rgb(39, 36, 60)); */
-    background-image: linear-gradient(to bottom, rgb(41, 32, 73), rgb(54, 36, 60));
-    width: 55%;
-    height: 35%;
-    display: flex;
-    position: absolute;
-    top: 17.5rem;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+  /* background-color: rgb(49, 46, 76); */
+  /* background-image: linear-gradient(to bottom, rgb(42, 33, 76), rgb(39, 36, 60)); */
+  background-image: linear-gradient(
+    to bottom,
+    rgb(41, 32, 73),
+    rgb(54, 36, 60)
+  );
+  width: 55%;
+  height: 35%;
+  display: flex;
+  position: absolute;
+  top: 17.5rem;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 
-    padding: 2% 0;
-    border-radius: 5px;
-    /* border: dotted 2px lime; */
-    border: dotted 2px papayawhip;
-    box-shadow: 0 2px 50px 10px dimgray;
-
+  padding: 2% 0;
+  border-radius: 5px;
+  /* border: dotted 2px lime; */
+  border: dotted 2px papayawhip;
+  box-shadow: 0 2px 50px 10px dimgray;
 }
 
 .search-box__blurb {
-    /* background-color: white; */
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 50%;
+  /* background-color: white; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
 }
 
 .search-box div h1 {
-    color: deeppink;
-    font-size: 2.5rem;
-    text-shadow: 1px 1px 5px crimson;
+  color: deeppink;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 5px crimson;
 }
 
 .search-box div p {
-    color: blanchedalmond;
-    font-size: 1.5rem;
-    font-weight: 300;
-    text-shadow: 1px 1px 5px peachpuff;
+  color: blanchedalmond;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-shadow: 1px 1px 5px peachpuff;
 }
 
 .search-box__controls {
-    /* background-color: green; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 87%;
-    height: 50%;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 87%;
+  height: 50%;
 }
 
 .search-box__controls input {
-    width: 63%;
-    height: 35%;
-    font-size: large;
-    font-weight: 700;
-    color: lightgreen;
-    text-shadow: 1px 2px 5px rgb(202, 25, 146);
-    padding: 0 1%;
-    border-radius: 4px;
-    border: none;
-    outline: 2px dotted limegreen;
-    box-shadow: 0 0 2px 1px slategray;
-    outline: none;
-    background-color: hotpink;
-    caret-color: lightgreen;
+  width: 63%;
+  height: 35%;
+  font-size: large;
+  font-weight: 700;
+  color: lightgreen;
+  text-shadow: 1px 2px 5px rgb(202, 25, 146);
+  padding: 0 1%;
+  border-radius: 4px;
+  border: none;
+  outline: 2px dotted limegreen;
+  box-shadow: 0 0 2px 1px slategray;
+  outline: none;
+  background-color: hotpink;
+  caret-color: lightgreen;
 
-    transition: 200ms;
+  transition: 200ms;
 }
 
 .search-box__controls input::placeholder {
-    color: rgba(119, 241, 119, 0.792);
-    text-shadow: 1px 2px 5px rgb(202, 25, 146);
+  color: rgba(119, 241, 119, 0.792);
+  text-shadow: 1px 2px 5px rgb(202, 25, 146);
 }
 
 .search-box__controls input:focus {
-    box-shadow: 0 0 2px 1px papayawhip;
+  box-shadow: 0 0 2px 1px papayawhip;
 }
 
 .search-box__controls__buttons {
-    width: 32.5%;
-    height: 35%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    /* background-color: pink; */
+  width: 32.5%;
+  height: 35%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: pink; */
 }
 
 .search-box__controls__buttons__button {
-    border-style: none;
-    border-radius: 4px;
-    /* padding: 4%; */
-    width: 45%;
-    height: 100%;
-    font-size: 1.1rem;
-    border-bottom: double 3px papayawhip;
-    box-shadow: 0 0 1px 0px slategray;
-    transition: 200ms;
+  border-style: none;
+  border-radius: 4px;
+  /* padding: 4%; */
+  width: 45%;
+  height: 100%;
+  font-size: 1.1rem;
+  border-bottom: double 3px papayawhip;
+  box-shadow: 0 0 1px 0px slategray;
+  transition: 200ms;
 }
 
 .search-box__controls__buttons__button:hover {
-    transform: translateY(-5%);
-    box-shadow: 0 1px 4px 1px rgb(127, 117, 156);
-    cursor: pointer;
+  transform: translateY(-5%);
+  box-shadow: 0 1px 4px 1px rgb(127, 117, 156);
+  cursor: pointer;
 }
 
 #rent {
-    background-color: rgb(226, 45, 81);
-    color: papayawhip;
-    transition: 200ms;
+  background-color: rgb(226, 45, 81);
+  color: papayawhip;
+  transition: 200ms;
 }
 
 #rent:hover {
-    background-color: papayawhip;
-    color: crimson;
-    border-bottom: double 3px crimson;
+  background-color: papayawhip;
+  color: crimson;
+  border-bottom: double 3px crimson;
 }
 
 #sale {
-    background-color: lightgreen;
-    color: rgb(249, 87, 168);
-    transition: 200ms;
-    border-bottom: double 3px rgb(249, 87, 168);
+  background-color: lightgreen;
+  color: rgb(249, 87, 168);
+  transition: 200ms;
+  border-bottom: double 3px rgb(249, 87, 168);
 }
 
 #sale:hover {
-    background-color: rgb(249, 87, 168);
-    color: lightgreen;
-    border-bottom: double 3px lightgreen;
+  background-color: rgb(249, 87, 168);
+  color: lightgreen;
+  border-bottom: double 3px lightgreen;
 }
 
 main {
-    margin-top: 5%;
-    width: 100vw;
-    height: 75vh;
-    background-color: cadetblue;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    /* background-color: orange; */
+  margin-top: 5%;
+  width: 100vw;
+  height: 110vh;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: orange; */
 }
 
 .cards {
-    background-color: lime;
-    width: 60%;
-    height: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+  background-color: lime;
+  width: 60%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .cards__panel {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 50%;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: orange;
+}
+
+#panel-left {
+  width: 70%;
+  background-color: hotpink;
+}
+
+#panel-right {
+  width: 30%;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
 .cards__panel__section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 45%;
 }
 
 .cards__card {
-    background-color: gainsboro;
-    width: 25%;
-    height: 35%;
-    border-radius: 3px;
-    box-shadow: 0 1px 3px 2px gainsboro;
+  background-color: snow;
+  width: 32%;
+  height: 100%;
+  border: 1px solid silver;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  /* box-shadow: 0 1px 3px 2px dimgrey; */
+}
+
+.cards__card div {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.cards__card div img {
+    width: 100%;
+    height: 32%;
+}
+
+
+.cards__card__content {
+    width: 100%;
+    height: 40%;
+    padding: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5%;
+    /* background-color: green; */
+}
+
+.cards__card__content--bottom {
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+}
+
+.cards__card hr {
+    width: 100%;
+}
+
+#search img {
+    height: 48.5%;
+}
+
+#news img {
+    height: 64%;
+}
+
+#stories img {
+    height: 60%;
 }
 
 .cards__card--wide {
-    background-color: gainsboro;
+  background-image: url('../images/location.jpeg');
+  height: 25%;
+  width: 100%;
+  padding: 2%;
+  z-index: 0;
+}
+
+.cards__card--wide .overlay {
+  width: 42%;
+  height: 24.7%;
+  background-image: linear-gradient(to right, snow 60%, rgb(0, 0, 0, 0));
+  position: absolute;
+  top: 119.5%;
+  left: 20%;
+  z-index: -1;
+}
+
+#blurbs {
+    height: 20%;
 }
 
 .cards__blurb {
-    background-color: gainsboro;
+  background-color: snow;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 1%;
+  /* background-color: green; */
 }
 
 .cards__card--register {
-    background-color: gainsboro;
+  background-color: snow;
+  width: 75%;
+  height: 25%;
+  border: 1px solid silver;
+  border-radius: 3px;
+  box-shadow: 0px 2px 7px 3px dimgray;
 }
 
 .cards__card--recent {
-    background-color: gainsboro;
+  background-color: snow;
+  width: 75%;
+  height: 25%;
+  border: 1px solid silver;
+  border-radius: 3px;
+  box-shadow: 0px 2px 7px 3px dimgray;
+  margin-top: 7.5%;
 }

@@ -21,48 +21,83 @@
 
     <main>
         <div class="cards">
-            <div class="cards__panel">
+            <div class="cards__panel" id="panel-left">
                 <div class="cards__panel__section">
-                    <div class="cards__card">
-                        <img src="" alt="">
-                        <h4>MAP SEARCH</h4>
-                        <h4>Property Maps</h4>
-                        <strong>Quick links: </strong>
-                        <a>England</a>
-                        <a>Scotland</a>
-                        <a>Wales</a>
-                        <a>Northern Ireland</a>
-                        <a>London</a>
-                        <a>London Stations.</a>
-                        <hr>
-                        "or"
-                        <a href="#">Draw a search</a>
+
+                    <div class="cards__card" id="search">
+                        <div>
+                            <img src="../public/images/search.jpeg">
+                            <div class="cards__card__content">
+                                <div>
+                                    <h4>MAP SEARCH</h4>
+                                    <h4>Property Maps</h4>
+                                </div>
+                                <div>
+                                    <strong>Quick links: </strong>
+                                    <a>England</a>
+                                    <a>Scotland</a>
+                                    <a>Wales</a>
+                                    <a>Northern Ireland</a>
+                                    <a>London</a>
+                                    <a>London Stations.</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <hr>
+                            <div class="cards__card__content--bottom">
+                                or
+                                <a href="#">Draw a search</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="cards__card">
-                        <img src="" alt="">
-                        <h4>PROPERTY NEWS</h4>
-                        <a href="#">Dynamic Link</a>
-                        <p>Read more...</p>
-                        <hr>
-                        <a href="#">Visit the Shitemove Blog</a>
+
+                    <div class="cards__card" id="news">
+                        <div>
+                            <img src="../public/images/news.webp">
+                            <div class="cards__card__content">
+                                <h4>PROPERTY NEWS</h4>
+                                <a href="#">Dynamic Link</a>
+                                <p>Read more...</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <hr>
+                            <div class="cards__card__content--bottom">
+                                <a href="#">Visit the Shitemove Blog</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="cards__card">
-                        <img src="" alt="">
-                        <h4>MOVING STORIES</h4>
-                        <a href="#">Dynamic Link</a>
-                        <p>Read "name's" story...</p>
-                        <hr>
-                        <a href="#">Find out more</a>
+
+                    <div class="cards__card" id="stories">
+                        <div>
+                            <img src="../public/images/stories.webp">
+                            <div class="cards__card__content">
+                                <h4>MOVING STORIES</h4>
+                                <a href="#">Dynamic Link</a>
+                                <p>Read "name's" story...</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <hr>
+                            <div class="cards__card__content--bottom">
+                                <a href="#">Find out more</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="cards__card--wide">
+                    <div class="overlay"></div>
                     <h3>Where can I live?</h3>
                     <p>We've created a new tool to help you easily find the areas that match your budget and needs.</p>
                     <a href="#">Discover your perfect location</a>
                 </div>
 
-                <div class="cards__panel__section">
+                <div class="cards__panel__section" id="blurbs">
                     <div class="cards__blurb">
                         <h4>Sold house prices</h4>
                         <p>See what property in your local area sold for</p>
@@ -82,9 +117,9 @@
             </div>
 
 
-            <div class="cards__panel">
+            <div class="cards__panel" id="panel-right">
                 <div class="cards__card--register">
-                    <img src="">
+                    <img src="#">
                     <p>Create alerts and save properties & searches</p>
                     <button>Create an account</button>
                     <button>Sign in</button>
