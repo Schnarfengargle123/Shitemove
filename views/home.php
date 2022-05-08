@@ -119,22 +119,34 @@
 
             <div class="cards__panel" id="panel-right">
                 <div class="cards__card--register">
-                    <img src="#">
+                    <img src="../public/images/svg/notification-bell.svg">
                     <p>Create alerts and save properties & searches</p>
-                    <button>Create an account</button>
-                    <button>Sign in</button>
+                    <div>
+                        <button>Create an account</button>
+                        <button>Sign in</button>
+                    </div>
                 </div>
                 <div class="cards__card--recent">
-                    <h3>Recent searches</h3>
-                    <a href="#">Dynamic Link</a>
-                    <p>To Rent - Flats & Houses</p>
-                    <a href="#">Dynamic Link</a>
-                    <p>For Sale - Flats & Houses</p>
-                    <button><i>Icon</i>Clear Recent Searches</button>
+                    <div>
+                        <h3>Recent searches</h3>
+                        <div>
+                            <a href="#">Dynamic Link</a>
+                            <p>To Rent - Flats & Houses</p>
+                            <a href="#">Dynamic Link</a>
+                            <p>For Sale - Flats & Houses</p>
+                        </div>
+                    </div>
+                    <button>
+                        <p>&#x1f5d1;&#xfe0f;</p>
+                        <p>Clear Recent Searches</p>
+                    </button>
                 </div>
             </div>
         </div>
     </main>
 
+    <footer>
+
+    </footer>
 
 </div>
