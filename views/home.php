@@ -144,9 +144,4 @@
             </div>
         </div>
     </main>
-
-    <footer>
-
-    </footer>
-
 </div>
