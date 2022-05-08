@@ -450,8 +450,12 @@ main {
   padding: 0;
 }
 
-.cards__card--recent div {
-  padding: 7.5% 10%;
+.cards__card--recent div:nth-child(1) {
+  padding: 5%;
+}
+
+.cards__card--recent div:nth-child(2) {
+  padding: 5% 0;
 }
 
 .cards__card--recent div {
