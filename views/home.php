@@ -91,10 +91,14 @@
                 </div>
 
                 <div class="cards__card--wide">
-                    <div class="overlay"></div>
-                    <h3>Where can I live?</h3>
-                    <p>We've created a new tool to help you easily find the areas that match your budget and needs.</p>
-                    <a href="#">Discover your perfect location</a>
+                    <div class="overlay">
+                        <div class="cards__card--wide__content">
+                            <h3>Where can I live?</h3>
+                            <p>We've created a new tool to help you easily find the areas that match your budget and needs.</p>
+                            <a href="#">Discover your perfect location</a>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div class="cards__panel__section" id="blurbs">
